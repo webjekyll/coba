@@ -1,5 +1,7 @@
 # REV04 Sat 31 Jul 2021 12:02:07 WIB
 # START Thu 29 Jul 2021 12:33:49 WIB
 # baseurl
-markdown: kramdown
+version: "05--31-Jul-2021"
+markdown: "kramdown"
 plugins:
+

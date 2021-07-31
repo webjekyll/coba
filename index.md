@@ -8,3 +8,6 @@ layout: "layout"
 * [GitHub](https://github.com/webjekyll/coba/)
 
 
+#### Version {{ site.version }}
+
+
