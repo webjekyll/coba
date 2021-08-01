@@ -1,7 +1,9 @@
-# REV04 Sat 31 Jul 2021 12:02:07 WIB
-# START Thu 29 Jul 2021 12:33:49 WIB
+version: "007--01-Aug-2021"
 # baseurl
-version: "006--31-Jul-2021"
 markdown: "kramdown"
 plugins:
-
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "default"
