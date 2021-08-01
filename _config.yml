@@ -1,15 +1,18 @@
-version: "008--01-Aug-2021"
-# baseurl
-markdown: "kramdown"
+version:  "009--01-Aug-2021"
+lang:     "en-US"
+description:
+   I have spoken.
+navbarlinks:
+- navbar: "Home"
+  link:   "/"
+- navbar: "About"
+  link:   "/about.html"
 plugins:
 defaults:
 - scope:
     path: ""
   values:
     layout: "default"
-navbarlinks:
-- navbar: "Home"
-  link:   "/"
-- navbar: "About"
-  link:   "/about.html"
-
+markdown: "kramdown"
+# baseurl:
+github: [metadata]

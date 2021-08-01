@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- File _layouts/layout.html
-(c) 2021 - 2021 VauLSMorg
-REV00: Thu 29 Jul 2021 12:45:33 WIB
-START: Thu 29 Jul 2021 12:45:33 WIB
-This is a free HTML file            -->
+<!--
+File _layouts/layout.html
+(c) 2021 - 2021 VauLSMorg This is a free HTML file.
+REV01: Sun 01 Aug 2021 19:51:29 WIB
+START: Sun 01 Aug 2021 19:51:29 WIB
+-->
+
+<html lang='{{ site.lang | default: "en-US" }}'>
 <head>
+  <meta charset="utf-8">
   <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" type="text/css" title="Style">
 </head>
 <body>
-<div>
   <header>
-     {% include navbar.html %}
+  <nav>
+    <ul>
+      {% for ii in site.navbarlinks %}    
+        <li><a href="{{ site.baseurl }}{{ ii.link }}">{{ ii.navbar }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
   </header>
   <section>
-     <hr>
-     {{ content }}
-     <hr>
-     Version: {{ site.version }}
+  {{ content }}
   </section>
-</div>
+  <hr>
+  Version: {{ site.version }}
 </body>
 </html>
 
