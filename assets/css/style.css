@@ -11,6 +11,58 @@ START: Sun 01 Aug 2021 21:20:00 WIB
   background-color: hsl(0,    10%,  10%);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   color:            hsl(120, 100%,  50%);
 }
+
+pre {
+  background-color: hsl(0,     0%,    0%);
+  border:           1px solid hsl(0,    50%,   20%);
+  padding:          10px;
+  font-size:        16px;
+  color:            hsl(0,   100%,  100%);
+  border-radius:    2px;
+  word-wrap:        normal;
+  overflow:         auto;
+  overflow-y:       hidden;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px dashed #b5e853;
+  padding: 15px 5px;
+}
+
+td {
+  padding: 15px 5px;
+}
+
+.navbar {
+  background-color: #101010;
+  color:            #FFFFFF;
+  font-size:        0.8em;
+}
+
+.navbar ul li {
+  display:        inline-block;
+  padding:        1px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background:       blue;
+  color:            #CCCCCC;
+  font-size:        1.2em;
+  font-weight:      bold;
+}
+
