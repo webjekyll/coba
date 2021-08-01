@@ -9,7 +9,7 @@ START: Sun 01 Aug 2021 19:51:29 WIB
 <html lang='{{ site.lang | default: "en-US" }}'>
 <head>
   <meta charset="utf-8">
-  <link href="{{ '/assets/css/style.css' | relative_url }} rel='stylesheet' type='text/css' title='Style'>
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel='stylesheet' type='text/css' title='Style'>
   {% if site.google_analytics %}
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -26,7 +26,7 @@ START: Sun 01 Aug 2021 19:51:29 WIB
   <nav>
     <ul>
       {% for ii in site.navbarlinks %}    
-        <li><a href="{{ site.baseurl }}{{ ii.link }}">{{ ii.navbar }}</a></li>
+        <li><a href="{{ ii.link | relative_url }}">{{ ii.navbar }}</a></li>
       {% endfor %}
     </ul>
   </nav>
