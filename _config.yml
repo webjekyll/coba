@@ -1,7 +1,9 @@
-version:  "015--01-Aug-2021"
+version:  "015a--01-Aug-2021"
 lang:     "en-US"
 description:
-   I have spoken.
+   I have spoken description.
+disclaimer:
+   I have spoken disclaimer.
 navbarlinks:
 - navbar: "Home"
   link:   "/"
@@ -15,5 +17,5 @@ defaults:
     layout: "default"
 markdown: "kramdown"
 google_analytics: UA-89852122-15
-baseurl: ""
-github: [metadata]
+github:
+- metadata

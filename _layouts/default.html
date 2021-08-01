@@ -30,11 +30,15 @@ START: Sun 01 Aug 2021 19:51:29 WIB
       {% endfor %}
     </ul>
   </nav>
+  {{ site.description }}
+  <hr>
   </header>
   <section>
   {{ content }}
   </section>
   <hr>
+  {{ site.disclaimer }}
+  <br>
   Version: {{ site.version }}
 </body>
 </html>
