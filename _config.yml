@@ -1,4 +1,4 @@
-version: "007--01-Aug-2021"
+version: "008--01-Aug-2021"
 # baseurl
 markdown: "kramdown"
 plugins:
@@ -7,3 +7,9 @@ defaults:
     path: ""
   values:
     layout: "default"
+navbarlinks:
+- navbar: "Home"
+  link:   "/"
+- navbar: "About"
+  link:   "/about.html"
+
