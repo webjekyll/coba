@@ -15,5 +15,5 @@ defaults:
     layout: "default"
 markdown: "kramdown"
 google_analytics: UA-89852122-15
-# baseurl:
+baseurl: ""
 github: [metadata]
