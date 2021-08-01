@@ -1,12 +1,16 @@
 /*
 File: assets/css/style.css
 (c) 2021 - 2021 VauLSMorg This is a free HTML file.
-REV01: Sun 01 Aug 2021 21:20:00 WIB
+REV01: Sun 01 Aug 2021 22:00:00 WIB
 START: Sun 01 Aug 2021 21:20:00 WIB
  */
 
 * {
   font-family:      monospace,courier;
-  color:            hsl(0, 100%, 100%);
-  background-color: hsl(0, 10%, 10%);
+  color:            hsl(0,   100%, 100%);
+  background-color: hsl(0,    10%,  10%);
+}
+
+h1, h2, h3, h4 {
+  color:            hsl(120, 100%,  50%);
 }
