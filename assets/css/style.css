@@ -1,7 +1,7 @@
 /*
 File: assets/css/style.css
 (c) 2021 - 2021 VauLSMorg This is a free HTML file.
-REV01: Sun 01 Aug 2021 22:00:00 WIB
+REV02: Mon 02 Aug 2021 10:31:58 WIB
 START: Sun 01 Aug 2021 21:20:00 WIB
  */
 
@@ -10,6 +10,31 @@ START: Sun 01 Aug 2021 21:20:00 WIB
   color:            hsl(0,   100%, 100%);
   background-color: hsl(0,    10%,  10%);
 }
+
+.navbar {
+  font-size:        0.8em;
+  border-width:     0px;
+  margin:           0px;
+}
+
+.navbar ul li {
+  display:          inline-block;
+  background-color: hsla(0,     0%,    0%, 1);
+  padding:          11px;
+}
+
+.navbar ul li a {
+  text-decoration:  none;
+}
+
+.navbar ul li a:hover {
+  background-color: hsla(255,   100%,   50%, 1);
+  font-size:        1.15em;
+  font-weight:      bold;
+  padding:          2px;
+}
+
+
 
 h1, h2, h3, h4, h5, h6 {
   color:            hsla(120, 100%,  50%, 1);
@@ -40,34 +65,5 @@ th {
 
 td {
   padding: 15px 5px;
-}
-
-.navbar {
-  font-size:        0.8em;
-  border-width:     0px;
-  margin:           0px;
-}
-
-.navbar ul li {
-  display:          inline-block;
-  background-color: hsla(0,     0%,    0%, 1);
-  padding:          6px;
-  border-width:     0px;
-  margin:           0px;
-}
-
-.navbar ul li a {
-  text-decoration:  none;
-  border-width:     0px;
-  margin:           0px;
-}
-
-.navbar ul li a:hover {
-  background-color: hsla(255,   100%,   50%, 1);
-  font-size:        1.2em;
-  font-weight:      bold;
-  padding:          3px;
-  border-width:     0px;
-  margin:           0px;
 }
 
