@@ -44,19 +44,22 @@ td {
 
 .navbar {
   font-size:        0.8em;
-  border-width:     0px
+  border-width:     0px;
+  margin:           0px;
 }
 
 .navbar ul li {
   display:          inline-block;
   background-color: hsla(0,     0%,    0%, 1);
   padding:          6px;
-  border-width:     0px
+  border-width:     0px;
+  margin:           0px;
 }
 
 .navbar ul li a {
   text-decoration:  none;
-  border-width:     0px
+  border-width:     0px;
+  margin:           0px;
 }
 
 .navbar ul li a:hover {
@@ -64,6 +67,7 @@ td {
   font-size:        1.2em;
   font-weight:      bold;
   padding:          3px;
-  border-width:     0px
+  border-width:     0px;
+  margin:           0px;
 }
 
