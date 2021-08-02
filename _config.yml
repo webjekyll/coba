@@ -1,9 +1,11 @@
-version:  "016d--02-Aug-2021"
+version:  "016e--02-Aug-2021"
 lang:     "en-US"
 description:
-   I have spoken description.
+  "Description:
+   I have spoken."
 disclaimer:
-   I have spoken disclaimer.
+   "Disclaimer:
+   I have spoken."
 navbarlinks:
 - navbar: "Home"
   link:   "/"
