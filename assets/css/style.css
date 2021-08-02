@@ -12,15 +12,15 @@ START: Sun 01 Aug 2021 21:20:00 WIB
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:            hsl(120, 100%,  50%);
+  color:            hsla(120, 100%,  50%, 1);
 }
 
 pre {
-  background-color: hsl(0,     0%,    0%);
-  border:           1px solid hsl(0,    50%,   20%);
+  background-color: hsla(0,     0%,    0%, 1);
+  border:           1px solid hsla(0,    50%,   20%, 1);
   padding:          10px;
   font-size:        16px;
-  color:            hsl(0,   100%,  100%);
+  color:            hsla(0,   100%,  100%, 1);
   border-radius:    2px;
   word-wrap:        normal;
   overflow:         auto;
@@ -34,7 +34,7 @@ table {
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px
   padding: 15px 5px;
 }
 
@@ -43,26 +43,27 @@ td {
 }
 
 .navbar {
-  background-color: #101010;
-  color:            #FFFFFF;
   font-size:        0.8em;
+  border-width:     0px
 }
 
 .navbar ul li {
-  display:        inline-block;
-  padding:        1px;
-  padding-top:    10px;
-  padding-bottom: 10px;
+  display:          inline-block;
+  background-color: hsla(0,     0%,    0%, 1);
+  padding:          6px;
+  border-width:     0px
 }
 
 .navbar ul li a {
-  text-decoration: none;
+  text-decoration:  none;
+  border-width:     0px
 }
 
 .navbar ul li a:hover {
-  background:       blue;
-  color:            #CCCCCC;
+  background-color: hsla(255,   100%,   50%, 1);
   font-size:        1.2em;
   font-weight:      bold;
+  padding:          3px;
+  border-width:     0px
 }
 

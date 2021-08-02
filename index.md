@@ -8,6 +8,7 @@
 * [Jekyll, Ubuntu, and GitHub Pages](https://jekyll.vlsm.org/)
 * [A GitHub Page with no Jekyll Theme](https://doit.vlsm.org/001.html)
 * [Installing Jekyll On a VirtualBox](https://doit.vlsm.org/005.html)
+* [HSL Color Chart](https://www.quackit.com/css/color/charts/hsl_color_chart.cfm)
 * [Introduction to Web Development](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH-cEDOofOujFIknfZZpIk3a)
 
 | AAAAA | BBBBB | CCCCC | DDDDD |
