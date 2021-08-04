@@ -1,5 +1,8 @@
-version:  "016e--02-Aug-2021"
-lang:     "en-US"
+revision:   "017--04-Aug-2021"
+copyright:  "2021-2021"
+title:      "Testing"
+author:     "Cicak Bin Kadal"
+lang:       "en-US"
 description:
   "Description:
    I have spoken."
@@ -7,21 +10,21 @@ disclaimer:
    "Disclaimer:
    I have spoken."
 navbarlinks:
-- navbar: "Home"
-  link:   "/"
-- navbar: "About"
-  link:   "/about.html"
-- navbar: "GitHub"
-  link:   "https://github.com/webjekyll/coba/"
-- navbar: "GitHub Page"
-  link:   "https://webjekyll.github.io/coba/"
+- navbar:   "Home"
+  link:     "/"
+- navbar:   "About"
+  link:     "/about.html"
+- navbar:   "GitHub"
+  link:     "https://github.com/webjekyll/coba/"
+- navbar:   "GitHub Page"
+  link:     "https://webjekyll.github.io/coba/"
 plugins:
 defaults:
 - scope:
-    path: ""
+    path:   ""
   values:
     layout: "default"
-markdown: "kramdown"
+markdown:   "kramdown"
 google_analytics: UA-89852122-15
 github:
 - metadata

@@ -1,8 +1,6 @@
 ---
 ---
 
-# INDEX
-
 * [Development repository for os.vlsm.org](https://github.com/OSP4DISS/SistemOperasiDev/)
 * [Hacker is a Jekyll theme for GitHub Pages](https://github.com/pages-themes/hacker/)
 * [Jekyll, Ubuntu, and GitHub Pages](https://jekyll.vlsm.org/)
