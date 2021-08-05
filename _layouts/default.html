@@ -41,10 +41,9 @@ START: Sun 01 Aug 2021 19:51:29 WIB
   {{ content }}
   </section>
   <hr>
+  <div>
   {{ site.disclaimer }}
   <br>
-  <div>
-  <hr>
   &copy; 
   {% if page.copyright %}{{ page.copyright | escape }}
   {% else %}{{ site.copyright | default: "TBA" }}{% endif %}
