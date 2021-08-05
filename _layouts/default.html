@@ -12,6 +12,7 @@ START: Sun 01 Aug 2021 19:51:29 WIB
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title | escape }}
   {% else %}{{ site.title | default: "TBA" }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | default: "TBA" }}{% endif %}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" type="text/css" title="Style" />
   {% if site.google_analytics %}
   <script>
