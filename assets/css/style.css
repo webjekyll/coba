@@ -1,8 +1,8 @@
 /*
 File: assets/css/style.css
 (c) 2021 - 2021 VauLSMorg This is a free HTML file.
-REV02: Mon 02 Aug 2021 11:00:00 WIB
-START: Sun 01 Aug 2021 21:20:00 WIB
+REV00: Sat 07 Aug 2021 09:19:25 WIB
+START: Sat 07 Aug 2021 09:19:25 WIB
  */
 
 * {
@@ -14,20 +14,6 @@ START: Sun 01 Aug 2021 21:20:00 WIB
 html, body {
   margin:                0;
   padding:               0;
-}
-
-.container {
-  max-width:             70%;
-  text-align:            justify;
-  margin:                0 auto;
-  font-size:             1em;
-  padding:               0 1.5em;
-  background-color:      hsla(  0,  0%,  0%, 0.7);
-}
-
-.nav {
-  text-align:            center;
-  border-botom:          1px;
 }
 
 .nav ul {
@@ -46,22 +32,18 @@ html, body {
   background-color:      hsla(  0,  1%,  1%, 0.4);
 }
 
-
 .nav a:hover {
   font-weight:           bold;
   font-size:             1.2em;
-  padding:               0.2em;
+  padding:               0.22em;
   background-color:      hsla(  0,  1%,  1%, 0.4);
 }
 
 .main-header {
   padding-bottom:        30px;
-  background-size:       cover;  
-  background-blend-mode: multiply;
   background-color:      hsla(  0,  0%,  0%, 0.3);
   background-image:      url("../images/free-dark-background.jpg");
+  background-blend-mode: multiply;
+  background-size:       cover;  
 }
 
-.dodol {
-  background-color:    hsla(  0,  10%,  10%, 1);
-}

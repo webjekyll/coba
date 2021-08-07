@@ -28,7 +28,7 @@ START: Sun 01 Aug 2021 19:51:29 WIB
 </head>
 <body>
   <header class="main-header">
-  <nav class="nav">
+  <nav class="nav main-nav">
   <ul>
     {% for ii in site.navbarlinks %}    
       <li><a href="{{ ii.link | relative_url }}">{{ ii.navbar }}</a></li>
@@ -40,10 +40,10 @@ START: Sun 01 Aug 2021 19:51:29 WIB
   <h3>  {% if page.author %}{{ page.author | escape }}
   {% else %}{{ site.author | default: "TBA" }}{% endif %}</h3>
   </header>
-  <section class="container">
+  <section>
   {{ content }}
   </section>
-  <div class="container">
+  <div>
   {{ site.disclaimer }}
   <br>
   &copy; 
