@@ -56,3 +56,13 @@ html, body {
   background-size:       cover;  
 }
 
+.h-header {
+  text-align:            center;
+  font-size:             1.5em;
+  color:                 hsla(130, 60%, 70%, .9);
+}
+
+.h-header-large {
+  font-size:             2.5em;
+}
+

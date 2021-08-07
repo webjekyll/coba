@@ -35,9 +35,9 @@ START: Sun 01 Aug 2021 19:51:29 WIB
     {% endfor %}
   </ul>
   </nav>
-  <h1>{% if page.title %}{{ page.title | escape }}
+  <h1 class="h-header h-header-large">{% if page.title %}{{ page.title | escape }}
   {% else %}{{ site.title | default: "TBA" }}{% endif %}</h1>
-  <h3>  {% if page.author %}{{ page.author | escape }}
+  <h3 class="h-header">  {% if page.author %}{{ page.author | escape }}
   {% else %}{{ site.author | default: "TBA" }}{% endif %}</h3>
   </header>
   <section>
