@@ -2,6 +2,7 @@
 <!--
 File _layouts/layout.html
 (c) 2021 - 2021 VauLSMorg This is a free HTML file.
+REV05: Sat 07 Aug 2021 10:24:31 WIB
 REV04: Fri 06 Aug 2021 09:14:19 WIB
 REV03: Wed 04 Aug 2021 09:04:12 WIB
 REV02: Mon 02 Aug 2021 10:08:18 WIB
@@ -40,10 +41,10 @@ START: Sun 01 Aug 2021 19:51:29 WIB
   <h3 class="h-header">  {% if page.author %}{{ page.author | escape }}
   {% else %}{{ site.author | default: "TBA" }}{% endif %}</h3>
   </header>
-  <section>
+  <section class="section-content container">
   {{ content }}
   </section>
-  <div>
+  <div class="section-content container">
   {{ site.disclaimer }}
   <br>
   &copy; 
