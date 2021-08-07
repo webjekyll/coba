@@ -32,10 +32,19 @@ html, body {
   background-color:      hsla(  0,  1%,  1%, 0.4);
 }
 
+.main-nav {
+  text-align:            center;
+  border-bottom:         2px solid hsla(  0,   0%,  80%, .3);
+}
+
+.main-nav li {
+  padding:               0 2%;
+}
+
 .nav a:hover {
   font-weight:           bold;
   font-size:             1.2em;
-  padding:               0.22em;
+  padding:               0.19em;
   background-color:      hsla(  0,  1%,  1%, 0.4);
 }
 
