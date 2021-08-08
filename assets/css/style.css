@@ -59,7 +59,7 @@ html, body {
 .h-header {
   text-align:            center;
   font-size:             1.5em;
-  color:                 hsla(130, 60%, 70%, .9);
+  color:                 hsl( 79,  67%, 49%);
 }
 
 .h-header-large {
