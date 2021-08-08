@@ -6,17 +6,15 @@
 html, body {
   color:                 hsl(  0,   0%, 80%);
   background-color:      hsl(  0,   0%, 40%);
+  background-color:      hsl( 50,   0%, 15%);
   margin:                0;
   padding:               0;
-}
-
-.dum {
-  color:                 hsl(100,  50%, 50%);
 }
 
 .my-header {
   color:                 hsl( 79,  67%, 49%);
   background-color:      hsl( 50,   0%, 15%);
+  background-color:      hsl(  0,   0%, 40%);
   padding-bottom:        10px;
 }
 
@@ -42,7 +40,7 @@ html, body {
 
 .nav li {
   display:               inline;
-  padding:               0 3%;
+  padding:               0 7%;
 }
 
 .nav a {
