@@ -1,4 +1,4 @@
-revision:   "021--08-Aug-2021"
+revision:   "021a--08-Aug-2021"
 copyright:  "2021-2021"
 title:      "The Main Title"
 author:     "Mr. Author"
@@ -12,6 +12,8 @@ disclaimer:
 navbarlinks:
 - navbar:   "Home"
   link:     "/"
+- navbar:   "Tester"
+  link:     "/tester.html"
 - navbar:   "Links"
   link:     "/links.html"
 - navbar:   "About"
