@@ -1,0 +1,78 @@
+/*
+File: assets/css/style.css
+(c) 2021 - 2021 VauLSMorg This is a free HTML file.
+REV00: Sat 07 Aug 2021 09:19:25 WIB
+START: Sat 07 Aug 2021 09:19:25 WIB
+ */
+
+* {
+  box-sizing:            border-box;
+  font-family:           monospace,courier;
+  color:                 hsla(  0,   0%,  80%, 1);
+}
+
+html, body {
+  margin:                0;
+  padding:               0;
+}
+
+.nav ul {
+  margin:                0;
+}
+
+.nav li {
+  display:               inline;
+}
+
+.nav a {
+  padding:               .5em;
+  text-decoration:       none;
+  display:               inline-block;
+  color:                 hsla(  0,  0%, 95%, 1);
+  background-color:      hsla(  0,  1%,  1%, 0.4);
+}
+
+.main-nav {
+  text-align:            center;
+  border-bottom:         2px solid hsla(  0,   0%,  80%, .3);
+}
+
+.main-nav li {
+  padding:               0 2%;
+}
+
+.nav a:hover {
+  font-weight:           bold;
+  font-size:             1.2em;
+  padding:               0.19em;
+  background-color:      hsla(  0,  1%,  1%, 0.4);
+}
+
+.main-header {
+  padding-bottom:        30px;
+  background-color:      hsla(  0,  0%,  0%, 0.3);
+  background-image:      url("../images/free-dark-background.jpg");
+  background-blend-mode: multiply;
+  background-size:       cover;  
+}
+
+.h-header {
+  text-align:            center;
+  font-size:             1.5em;
+  color:                 hsla(130, 60%, 70%, .9);
+}
+
+.h-header-large {
+  font-size:             2.5em;
+}
+
+.section-content {
+  margin:                5em;
+}
+
+.container {
+  max-width:             1300px;
+  margin:                0 auto;
+  padding:               0 1.5em;
+}
+
