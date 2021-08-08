@@ -20,6 +20,14 @@ html, body {
   padding-bottom:        10px;
 }
 
+.my-header img {
+  float: left;
+  height: 131px;
+  width:  131px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
 .my-header h1, .my-header h2, .my-header h3, .my-header h4 {
   text-align:            center;
 }
