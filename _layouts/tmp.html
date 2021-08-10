@@ -31,23 +31,24 @@ START: Sun 01 Aug 2021 19:51:29 WIB
   {% endif %}
 </head>
 <body>
-  <header class="main-header">
-  <nav class="nav main-nav">
+  <header class="my-header">
+  <nav class="nav">
   <ul>
     {% for ii in site.navbarlinks %}    
       <li><a href="{{ ii.link | relative_url }}">{{ ii.navbar }}</a></li>
     {% endfor %}
   </ul>
   </nav>
-  <h1 class="h-header h-header-large">{% if page.title %}{{ page.title | escape }}
+  <img src="/assets/images/default.png" />
+  <h1>{% if page.title %}{{ page.title | escape }}
   {% else %}{{ site.title | default: "TBA" }}{% endif %}</h1>
-  <h3 class="h-header">  {% if page.author %}{{ page.author | escape }}
+  <h3>  {% if page.author %}{{ page.author | escape }}
   {% else %}{{ site.author | default: "TBA" }}{% endif %}</h3>
   </header>
-  <section class="section-content container">
+  <section class="section container">
   {{ content }}
   </section>
-  <div class="section-content container">
+  <div class="section container">
   {{ site.disclaimer }}
   <br>
   &copy; 
